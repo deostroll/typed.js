@@ -1,4 +1,4 @@
 image: gitpod/workspace-full
 
 tasks:
-  - command: npm install
+  - command: python -m http.server

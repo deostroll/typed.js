@@ -50,9 +50,6 @@ hr{
 .type-wrap{
 	margin:10px auto;
 	padding:20px;
-	background:#f0f0f0;
-	border-radius:5px;
-	border:#CCC 1px solid;
 }
 
 .links{
@@ -60,6 +57,32 @@ hr{
 	font-size: 0.75em;
 }
 
+.flex-nowrap-center {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+
+.flex-vertical-center {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
 #typed {
-    background-color: #999;    
+    font-size: 60px;    
+}
+
+.child {
+    padding: 10px;    
+}
+
+.child2 {
+    padding: 10px;
+    
+}
+.blue {
+    color: blue;
+    font-weight: bold;
 }
