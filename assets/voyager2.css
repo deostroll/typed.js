@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+/* @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500); */
 
 *{
 	padding:0;
@@ -57,38 +57,36 @@ hr{
 	font-size: 0.75em;
 }
 
-.flex-nowrap-center {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap:nowrap;
-    justify-content: center;
+.blue {
+    color: #2d61d5;
+    font-weight: bold;
 }
 
-.flex-vertical-center {
+.debug {
+    outline: 2px dotted;
+}
+
+.anim-container {
+    width: 50%;
+}
+
+.img-container {
+    width: 50%;
+}
+
+#container1 {
     display: flex;
-    align-items: center;    
+    flex-wrap: nowrap;
+    align-items: flex-start;
     justify-content: center;
 }
 
 #typed {
-    font-size: 60px;    
-    width: 100%;
-    outline: 1px dotted;
+    font-size: 60px;            
 }
 
-.child {
-    padding: 10px;
-    max-width: 50%;    
-}
-
-.child2 {
-    padding: 10px;
-    
-}
-.blue {
-    color: blue;
-    font-weight: bold;
-}
-#images {
-    outline: 1px dotted;
+.img-slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
